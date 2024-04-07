@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo{
+margin: 0 0 0 15px;
+}
+
+.menu{
+    margin: 0px 55px 0px 0px;
+}
+
+.menu_list {
+    display: flex;
+    align-items: center;
+}
+
+.menu_item {
+    margin-right: 15px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.menu_link{
+    color: aliceblue;
+}

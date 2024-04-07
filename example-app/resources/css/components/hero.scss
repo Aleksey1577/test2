@@ -1,0 +1,24 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.hero_title {
+    margin-bottom: 15px;
+}
+
+.hero_text{
+    margin-bottom: 25px;
+    
+}
+
+.hero_benefits{
+    display: flex;
+    justify-content: space-around;
+}
+
+.benefits{
+    width: 15%;
+}
